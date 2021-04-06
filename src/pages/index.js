@@ -11,6 +11,8 @@ import MyNotes from './mynotes';
 import Favorites from './favorites';
 import Note from './note';
 import SignUp from './signup';
+// import the sign-in page component
+import SignIn from './signin';
 
 // define our routes
 const Pages = () => {
@@ -22,6 +24,7 @@ const Pages = () => {
         <Route path="/favorites" component={Favorites} />
         <Route path="/note/:id" component={Note} />
         <Route path="/signup" component={SignUp} />
+        <Route path="/signin" component={SignIn} />
       </Layout>
     </Router>
   );
